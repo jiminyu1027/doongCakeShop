@@ -1,0 +1,89 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+nav {
+  background-color: #e3d6c8;
+}
+.nav-logo-box {
+  text-align: center;
+}
+.menu-center {
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  color: #6a4633 !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #ec6218 !important;
+}
+.cake-title {
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: #6a4633;
+}
+.cake-sub-title {
+  color: #6a4633;
+  border-bottom: 3px solid #6a4633;
+}
+.pink-heart {
+  color: #ff4788;
+}
+.fin-line {
+  border-bottom: 3px solid #6a4633;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #6a4633 !important;
+  border-color: #6a4633 !important;
+}
+.btn-primary:hover {
+  color: #6a4633 !important;
+  background-color: #fff !important;
+  border-color: #6a4633 !important;
+}
+footer {
+  background-color: #e3d6c8;
+  color: #6a4633;
+}
+.footer-first-line {
+  background-color: #6a4633;
+}
+.text-bold {
+  font-weight: bold;
+}
+.footer-menu {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.footer-link {
+  color: #6a4633;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #ec6218;
+  font-weight: bold;
+}
+.cake-card {
+  border: 1px solid #6a4633;
+}
+.mobile-footer {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .menu-center {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .mobile-footer {
+    display: block;
+  }
+  .pc-footer {
+    display: none;
+  }
+}
